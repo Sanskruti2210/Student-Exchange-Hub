@@ -1,0 +1,48 @@
+/* Two theme options: Ocean and Ocean Dark. */
+:root,[data-theme="ocean"]{
+    --ink:#102a43;
+    --ink2:#2b4c6f;
+    --muted:#587087;
+    --paper:#f2f8fc;
+    --card:#ffffff;
+    --soft:#dcecf8;
+    --soft2:#eaf4fb;
+    --hero:#d6e9f7;
+    --line:#dde8f1;
+    --line2:#c3d6e6;
+    --green:#1766a8;
+    --green-dark:#0f4c80;
+    --lime:#9be1ff;
+    --orange:#ff9f6b;
+    --deep:#0d2d4a;
+    --accent2:#ffb26b;
+    --grad1:#1766a8;
+    --grad2:#38bdf8;
+    --shadow:0 16px 44px rgba(15,76,128,.13);
+    --radius:20px;
+    color-scheme:light
+}
+
+[data-theme="dark"]{
+    --ink:#e7f4ff;
+    --ink2:#bdd7ea;
+    --muted:#91aec3;
+    --paper:#07131d;
+    --card:#0d2230;
+    --soft:#123447;
+    --soft2:#0a1b27;
+    --hero:#0c293a;
+    --line:#1b3a4d;
+    --line2:#2b5065;
+    --green:#38bdf8;
+    --green-dark:#69d2ff;
+    --lime:#9be1ff;
+    --orange:#ff9f6b;
+    --deep:#041019;
+    --accent2:#ffb26b;
+    --grad1:#1766a8;
+    --grad2:#38bdf8;
+    --shadow:0 16px 44px rgba(0,0,0,.48);
+    --radius:20px;
+    color-scheme:dark
+}
